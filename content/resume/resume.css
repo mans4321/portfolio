@@ -24,7 +24,7 @@
 
 .resume__content h4{
     text-decoration: underline;
-    margin-bottom: 1%;;
+    margin-bottom: 2%;;
 
 }
 
@@ -42,6 +42,7 @@
     .resume__slider{
         font-size: 16px;
         width: 90vw;
+        height: -100vh;
     }
 }
 
@@ -51,6 +52,6 @@
  list-style-type: square;
  text-indent: 0%;
 
- float: left;
+
 
 }

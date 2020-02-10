@@ -53,6 +53,27 @@ const Resume = withNavigationContext(({ fullpage }) => {
                         </div>
 
                         <div className="resume__content">
+                            <h4>EXPEREINCE:</h4>
+                            <b>Full Stack Developer (Intern)</b>
+                            <p>SAP, Montreal</p>
+                            <ul>
+                                <li>Designed and implemented new features for Hybris extension(SmartEdit).</li>
+                                <li>Worked with the team to break out stories and assigns to team members.</li>
+                                <li>Developed UI components using Angular.</li>
+                            </ul>
+                            <p><strong>Technologies:</strong> Java, Spring, Git, JavaScript, Angular, AngularJS, Jenkins, and JIRA.</p>
+                        </div>
+
+                        <div className="resume__content">
+                            <h4>EXPEREINCE:</h4>
+                            <b>Full Stack Developer (Intern)</b>
+                            <p>Elm, KSA</p>
+                            <ul>
+                                <li>Utilized frameworks such as Hibernate and Spring for persistence and application layers.</li>
+                                <li>Developed UIs with JSP, JavaScript, HTML and CSS.</li>
+                                <li>Created and executed unit tests.</li>
+                            </ul>
+                            <p><strong>Technologies:</strong> Java, Spring, Git, JavaScript, Angular, AngularJS, Jenkins, and JIRA.</p>
                         </div>
                     </AwesomeSlider>
                 }
