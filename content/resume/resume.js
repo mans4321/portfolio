@@ -1,9 +1,10 @@
 import { withNavigationContext } from "react-awesome-slider/dist/navigation";
-import Lettering from "../../components/lettering/lettering";
 import Background from "../../components/background/background";
 import Content from "../../components/content/content";
 import Section from "../../components/section/section";
 import AwesomeSlider from 'react-awesome-slider';
+import { AwesomeButton } from "react-awesome-button";
+import AwesomeButtonStyles from 'react-awesome-button/src/styles/styles.scss'
 import './resume.css';
 
 
@@ -74,6 +75,14 @@ const Resume = withNavigationContext(({ fullpage }) => {
                                 <li>Created and executed unit tests.</li>
                             </ul>
                             <p><strong>Technologies:</strong> Java, Spring, Git, JavaScript, Angular, AngularJS, Jenkins, and JIRA.</p>
+                        </div>
+
+                        <div className="resume__content">
+                            <div className="button_cont" align="center">
+                                <a className="example_c" href="add-website-here" target="_blank">
+                                    PDF Version
+                                </a>
+                            </div>   
                         </div>
                     </AwesomeSlider>
                 }
