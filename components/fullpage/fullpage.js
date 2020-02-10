@@ -22,7 +22,7 @@ export default withNavigationContext(() => {
       startupScreen={<Startup />}
       startupDelay={275}
       animation={animation}
-      //infinite = {true}
+      infinite = {true}
       onTransitionEnd={() => {
         // HANDLE THE PAGE ELEMENTS ANIMATION ON FIRST TRANSITION END
         if (isFirstLoad.current === true) {// bring the nav 
