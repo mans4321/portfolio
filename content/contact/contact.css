@@ -1,0 +1,28 @@
+.contact__form{
+    height: 55vh;
+    width: 40vw;
+    font-size: 20px;
+    color: #fafafa;
+}
+
+@media  (max-width: 430px) {
+    .contact__form{
+        font-size: 18px;
+        width: 80vw;
+    }
+}
+@media  (max-width: 370px) {
+    .resume__slider{
+        font-size: 16px;
+        width: 90vw;
+        height: -100vh;
+    }
+}
+
+.email__form{
+    margin-top: 5%;
+}
+
+.social__media{
+    margin-top: 5%;
+}

@@ -22,6 +22,7 @@ function App({ Component, pageProps }) {
           content="Mansour Alzahran portfolio."
         />
         <link rel="shortcut icon" href="favicon.ico" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"></link>
       </Head>
       <Layout>
         <Component {...pageProps} />
