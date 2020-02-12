@@ -18,7 +18,7 @@ const Contact = withNavigationContext(({ fullpage }) => {
              main={
                 <div className="contact__form">
                 <div>
-                    <h2>Get in touch</h2>
+                    <h2>Get in Touch</h2>
                     <p>
                         If you wanna get in touch,fill up the awesome
                         form below or send an email to <strong><i>mansour.alzahrani@yahoo.com</i> </strong>and ~let's talk.
@@ -36,10 +36,18 @@ const Contact = withNavigationContext(({ fullpage }) => {
     
                     
                     <div className="flex-c-m">
-                    <a className="social__item bg2">
+                    <a 
+                        className="social__item bg2"
+                        href="https://www.linkedin.com/in/mansour-alzahrani-rdd/"
+                        target="_blank"
+                        >
                         <FontAwesomeIcon icon={faLinkedinIn}  style={{ color: 'white' , width:"90px"}} />
                     </a>
-                    <a className="social__item bg1">
+                    <a 
+                      className="social__item bg1"
+                      href="https://www.facebook.com/mansour.alzahrani.984"
+                      target="_blank"
+                      >
                         <FontAwesomeIcon icon={faFacebookF}  style={{ color: 'white' , width:"40px"}}  />
                     </a>
                     <a className="social__item bg3">
