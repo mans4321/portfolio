@@ -79,7 +79,7 @@ const Resume = withNavigationContext(({ fullpage }) => {
 
                         <div className="resume__content">
                             <div className="button_cont" align="center">
-                                <a className="example_c" href="add-website-here" target="_blank">
+                                <a className="example_c" href="https://drive.google.com/file/d/1TX8edHQwbP-mbeLE0Y0IWw2zfRQqk6Mn/view?usp=sharing" target="_blank">
                                     PDF Version
                                 </a>
                             </div>   

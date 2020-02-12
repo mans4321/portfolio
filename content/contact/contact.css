@@ -1,9 +1,57 @@
 .contact__form{
-    height: 55vh;
     width: 40vw;
     font-size: 20px;
+   
+}
+.contact__form h2{
+    color: #ffffff;
+}
+.contact__form h4{
+    color: #ffffff;
+}
+.contact__form p{
     color: #fafafa;
 }
+
+.flex-c-m {
+	display: flex;
+	justify-content: center;
+    align-items: center;  
+    margin-top: 3%;
+
+}
+
+.social__item {
+    padding: 18px;
+    font-size: 70px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 2%;
+}
+  
+.bg1{
+    background: rgb(55, 31, 163);
+}
+
+.bg2{
+    background-color: #347fe0;
+}
+
+.bg3{
+    background-color: black;
+}
+
+.social__item:hover {
+    color: #fff;
+    background-color: #333333;
+  }
+
+
 
 @media  (max-width: 430px) {
     .contact__form{
@@ -12,10 +60,9 @@
     }
 }
 @media  (max-width: 370px) {
-    .resume__slider{
+    .contact__form{
         font-size: 16px;
         width: 90vw;
-        height: -100vh;
     }
 }
 
@@ -26,3 +73,4 @@
 .social__media{
     margin-top: 5%;
 }
+
