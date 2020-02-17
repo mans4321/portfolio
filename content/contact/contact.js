@@ -17,13 +17,13 @@ const Contact = withNavigationContext(({ fullpage }) => {
             <Content
              main={
                 <div className="contact__form">
-                <div>
-                    <h2>Get in Touch</h2>
-                    <p>
-                        If you wanna get in touch,fill up the awesome
-                        form below or send an email to <strong><i>mansour.alzahrani@yahoo.com</i> </strong>and ~let's talk.
-                    </p>
-                </div>
+                    <div>
+                        <h2>Get in Touch</h2>
+                        <p>
+                            If you wanna get in touch,fill up the awesome
+                            form below or send an email to <strong><i>mansour.alzahrani@yahoo.com</i> </strong>and ~let's talk.
+                        </p>
+                    </div>
                 {/* <div className="email__form">
                     <div>
                         <h2>Get in touch</h2>
@@ -31,28 +31,32 @@ const Contact = withNavigationContext(({ fullpage }) => {
                     </div>
                 </div> */}
                 <div className="social__media">
-                    <h4>Let's get social</h4>
+                    <h3>Let's get social</h3>
                     <p>Follow my online fan page on Facebook and profiles on Twitter, GitHub and Linkedin.</p>
     
                     
                     <div className="flex-c-m">
-                    <a 
-                        className="social__item bg2"
-                        href="https://www.linkedin.com/in/mansour-alzahrani-rdd/"
+                        <a 
+                            className="social__item bg2"
+                            href="https://www.linkedin.com/in/mansour-alzahrani-rdd/"
+                            target="_blank"
+                            >
+                            <FontAwesomeIcon icon={faLinkedinIn}  style={{ color: 'white' , width:"90px"}} />
+                        </a>
+                        <a 
+                        className="social__item bg1"
+                        href="https://www.facebook.com/mansour.alzahrani.984"
                         target="_blank"
                         >
-                        <FontAwesomeIcon icon={faLinkedinIn}  style={{ color: 'white' , width:"90px"}} />
-                    </a>
-                    <a 
-                      className="social__item bg1"
-                      href="https://www.facebook.com/mansour.alzahrani.984"
-                      target="_blank"
-                      >
-                        <FontAwesomeIcon icon={faFacebookF}  style={{ color: 'white' , width:"40px"}}  />
-                    </a>
-                    <a className="social__item bg3">
-                        <FontAwesomeIcon icon={faGithub}  style={{ color: 'white' , width:"70px"}}  />
-                    </a>   
+                            <FontAwesomeIcon icon={faFacebookF}  style={{ color: 'white' , width:"40px"}}  />
+                        </a>
+                        <a 
+                            className="social__item bg3"
+                            href="https://github.com/mans4321"
+                            target="_blank"
+                            >
+                            <FontAwesomeIcon icon={faGithub}  style={{ color: 'white' , width:"70px"}}  />
+                        </a>   
                       
                     </div >
                 </div>
