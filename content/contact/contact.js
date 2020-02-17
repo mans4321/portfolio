@@ -52,7 +52,7 @@ const Contact = withNavigationContext(({ fullpage }) => {
                         </a>
                         <a 
                             className="social__item bg3"
-                            href="https://github.com/mans4321"
+                            href="https://github.com/mans-code"
                             target="_blank"
                             >
                             <FontAwesomeIcon icon={faGithub}  style={{ color: 'white' , width:"70px"}}  />
