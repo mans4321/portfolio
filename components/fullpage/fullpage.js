@@ -26,8 +26,7 @@ export default withNavigationContext(() => {
       onTransitionEnd={() => {
         // HANDLE THE PAGE ELEMENTS ANIMATION ON FIRST TRANSITION END
         if (isFirstLoad.current === true) {// bring the nav 
-          document.querySelector("body").classList.add("animated");
-          document.querySelector("body").classList.add("visible");
+          document.querySelector("body").classList.add("animated", "visible");
         }
       }}
       media={media}
