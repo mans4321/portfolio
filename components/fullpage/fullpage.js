@@ -13,7 +13,7 @@ import './fullpage.css';
 const Slider = withNavigationHandlers(AwesomeSlider);
 
 export default withNavigationContext(() => {
-  const isFirstLoad = useRef(true);
+  let isFirstLoad = useRef(true);
   const animation = `cubeAnimation`;
 
   return (
@@ -27,6 +27,7 @@ export default withNavigationContext(() => {
         // HANDLE THE PAGE ELEMENTS ANIMATION ON FIRST TRANSITION END
         if (isFirstLoad.current === true) {// bring the nav 
           document.querySelector("body").classList.add("animated", "visible");
+          isFirstLoad = useRef(false);
         }
       }}
       media={media}
