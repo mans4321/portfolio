@@ -17,7 +17,7 @@ const Portfolio = withNavigationContext(({ fullpage }) => {
     arr.push({
       title: "Compiler Design",
       imgSrc: "compiler.jpeg",
-      desc: "Translates programs written in a high level language with a given lexical specifications, Grammar, and Semantic into a Assembly language",
+      desc: ["Translates programs written in a high level language with a given lexical specifications, Grammar, and Semantic into a Assembly language"],
       link: "https://github.com/mans-code/CompilerDesign",
       linkDes: "Visit The Source Code"
     });
@@ -25,11 +25,21 @@ const Portfolio = withNavigationContext(({ fullpage }) => {
     arr.push({
       title: "Job Search Engine",
       imgSrc: "jobSearch.jpeg",
-      desc: "An advance Job Search Engine that enable its users to retrieve Jobs Opportunities that Matchs their Skills.",
+      desc: ["An advance Job Search Engine that enable its users to retrieve Jobs Opportunities that Matchs their Skills."],
       link: "https://jobhunteengine.firebaseapp.com/",
       linkDes: "Visit The Website"
     });
 
+    arr.push({
+      title: "Distributed System",
+      imgSrc: "distributedSystem.png",
+      desc: ["* Server process replication.",
+            " * Reliable group communication.",
+            " * Railure detection",
+            " * Leader election"],
+      link: "https://github.com/mans-code/Distributed-Staff-Management-System-DSMS",
+      linkDes: "Visit The Source Code"
+    });
      return arr;
   }
 
@@ -64,7 +74,7 @@ const Portfolio = withNavigationContext(({ fullpage }) => {
                                 color = "green"
                                 title={project.title}
                                 text={
-                                  [project.desc]
+                                  project.desc
                                 }
                               />
                             </div>

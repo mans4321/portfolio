@@ -2,7 +2,6 @@
     position: relative;
     height: 55vh;
     width: 40vw;
-
     font-size: 20px;
     --slider-height-percentage: 10%;
     --slider-transition-duration: 255ms;
@@ -13,15 +12,18 @@
     --control-bullet-active-color: #d5d5d5;
     --loader-bar-color: #fbf6f6;
     --loader-bar-height: 8px;
-    --organic-arrow-color: transparent;
-    
-       
+    --organic-arrow-color: transparent;     
 }
 
 .resume__slider div{
     background-color: transparent;
     color: #fafafa;
   
+}
+
+.resume__slider strong{
+
+    color: #61dafb;
 }
 
 .resume__content h4{
@@ -34,35 +36,16 @@
     padding-left: 0%;
 }
 
-@media  (max-width: 730px) {
-    .resume__slider{
-        font-size: 18px;
-        height: 65vh;
-        width: 80vw;
-    }
-}
-@media  (max-width: 500px) {
-    .resume__slider{
-        font-size: 18px;
-        width: 90vw;
-        height: -100vh;
-    }
-}
-
-
 .resume__content ul{
  margin: 0;
  list-style-type: square;
  text-indent: 0%;
-
-
-
 }
 
 
 .example_c {
-    color: #545eb6 !important;
-    background: #ffffff;
+    color: #030e72 !important;
+    background: #f6b93b;
     text-transform: uppercase;
     text-decoration: none;
     padding: 20px;
@@ -72,9 +55,30 @@
     }
 
 .example_c:hover {
-    color: #494949 !important;
-    background: #ffffff;
-    background: #f6b93b;
-    border-color: #ffffff !important;
+    color:  #2c0d83 !important;
+    background-color: #f3ebebf5 !important;
     transition: all 0.6s ease 0s;
+}
+
+
+@media  (max-width: 1025px) {
+    .resume__slider{
+        font-size: 22px;
+        width: 50%;
+
+        height: 75vh;
+    }
+}
+@media  (max-width: 769px) {
+    .resume__slider{
+        width: 90%;
+    }
+}
+
+@media  (max-width: 480px) {
+    .resume__slider{
+      font-size: 16px;
+      width: 95%;
+      height: 75vh;
+  }
 }

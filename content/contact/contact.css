@@ -47,21 +47,6 @@
     background-color: #333333;
   }
 
-
-
-@media  (max-width: 770px) {
-    .contact__form{
-        font-size: 18px;
-        margin-top: 10%;
-    }
-}
-@media  (max-width: 540px) {
-    .contact__form{
-        width: 90%;
-        font-size: 16px;
-    }
-}
-
 .email__form{
     margin-top: 5%;
 }
@@ -70,3 +55,27 @@
     margin-top: 5%;
 }
 
+
+
+@media  (max-width: 1025px) {
+    .contact__form{
+        font-size: 22px;
+        width: 50%;
+
+        height: 75vh;
+    }
+}
+@media  (max-width: 769px) {
+    .contact__form{
+        width: 90%;
+        margin-top: auto;
+    }
+}
+
+@media  (max-width: 480px) {
+    .contact__form{
+      font-size: 16px;
+      width: 95%;
+      height: 75vh;
+  }
+}
