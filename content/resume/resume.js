@@ -68,7 +68,7 @@ const Resume = withNavigationContext(({ fullpage }) => {
 
                         <div className="resume__content">
                             <h4>EXPEREINCE:</h4>
-                            <b>Full Stack Developer (Intern)</b>
+                            <b>Full Stack Developer</b>
                             <p>Elm, KSA</p>
                             <ul>
                                 <li>Utilized frameworks such as Hibernate and Spring for persistence and application layers.</li>
