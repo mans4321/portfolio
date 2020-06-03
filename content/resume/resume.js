@@ -23,6 +23,7 @@ const Resume = withNavigationContext(({ fullpage }) => {
                     <AwesomeSlider
                     className={"resume__slider"}
                     startupDelay={275}
+                    mobileTouch={false}
                     animation={animation}
                     bullets={true}
                     >

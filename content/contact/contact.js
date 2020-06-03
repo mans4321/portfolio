@@ -20,8 +20,7 @@ const Contact = withNavigationContext(({ fullpage }) => {
                     <div>
                         <h2>Get in Touch</h2>
                         <p>
-                            If you wanna get in touch,fill up the awesome
-                            form below or send an email to <strong><i>mansour.alzahrani@yahoo.com</i> </strong>and ~let's talk.
+                            If you wanna get in touch, please send an email to <strong><i>mansour.alzahrani@yahoo.com</i> </strong>and ~let's talk.
                         </p>
                     </div>
                 {/* <div className="email__form">
@@ -30,10 +29,16 @@ const Contact = withNavigationContext(({ fullpage }) => {
                 
                     </div>
                 </div> */}
+
                 <div className="social__media">
-                    <h3>Let's get social</h3>
-                    <p>Follow my online fan page on Facebook and profiles on Twitter, GitHub and Linkedin.</p>
-    
+
+                <div className="contact__form">
+                    <div>
+                        <h2>Let's get social</h2>
+                        <p>
+                            Follow my online fan page on Facebook and profiles on <strong><i>Twitter</i></strong>, <strong><i>GitHub</i></strong>, and <strong><i>Linkedin</i></strong>.
+                        </p>
+                    </div>
                     
                     <div className="flex-c-m">
                         <a 

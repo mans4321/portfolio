@@ -36,7 +36,7 @@ const Nav = withNavigationContext(({ fullpage }) => {
             className={slug === "contact" ? "selected" : null}
             href="/contact"
           >
-            contact
+            Contact
           </Link>
           <Link
             className={slug === "resume" ? "selected" : null}

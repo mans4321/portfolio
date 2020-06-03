@@ -20,7 +20,9 @@ export default withNavigationContext(() => {
     <Slider
       className={"main__Slider"}
       startupScreen={<Startup />}
-      startupDelay={275}
+      startupDelay={300}
+      cancelOnInteraction={false}
+      mobileTouch={false}
       animation={animation}
       infinite = {true}
       onTransitionEnd={() => {

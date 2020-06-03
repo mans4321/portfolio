@@ -7,6 +7,7 @@
     --control-button-width: 7%;
     --loader-bar-height: 100px;
     --loader-bar-color: #ffffff;
-    
+    height: 50vh;
+    width: 50vw;
 }
 
