@@ -9,19 +9,19 @@ import "./fullpage.css";
 
 export const media = [
   {
-    slug: "",
+    goto: "",
     children: <About />
   },
   {
-    slug: "portfolio",
+    goto: "portfolio",
     children: <Portfolio /> 
   },
   {
-    slug: "contact",
+    goto: "contact",
     children: <Contact />
   },
   {
-    slug: "resume",
+    goto: "resume",
     children: <Resume />
   }
 ];

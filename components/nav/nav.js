@@ -6,9 +6,8 @@ import {
 import ReactLogo from "../react-logo/react-logo";
 import "./nav.scss";
 
-const Nav = withNavigationContext(({ fullpage }) => {
-  const { slug } = fullpage.navigation;
-
+const Nav = withNavigationContext(({ fullpage}) => {
+  const { goto } = fullpage.navigation;
   return (
     <header className="page-header">
       <div className="page-header__wrapper">
@@ -23,23 +22,24 @@ const Nav = withNavigationContext(({ fullpage }) => {
           </div>
         </div>
         <nav>
-          <Link className={slug === "" ? "selected" : null} href="/">
+          <Link className={goto === "" ? "selected" : null} href="/">
             About
           </Link>
           <Link
-            className={slug === "portfolio" ? "selected" : null}
+            className={goto === "portfolio" ? "selected" : null}
             href="/portfolio"
           >
-            Portfolio
+                  Portfolio
+     
           </Link>
           <Link
-            className={slug === "contact" ? "selected" : null}
+            className={goto === "contact" ? "selected" : null}
             href="/contact"
           >
             Contact
           </Link>
           <Link
-            className={slug === "resume" ? "selected" : null}
+            className={goto === "resume" ? "selected" : null}
             href="/resume"
           >
             Resume
