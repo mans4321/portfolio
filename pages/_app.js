@@ -13,10 +13,9 @@ function App({ Component, pageProps }) {
         <title>
           Mans-Software Developer
         </title>
-        <meta
-          name="viewport"
-          content="width=device-width,minimum-scale=0.8,maximum-scale=1,user-scalable=no"
-        />
+        <meta name="viewport" 
+        content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+
         <meta
           name="description"
           content="Mansour Alzahran portfolio."
